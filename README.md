@@ -60,4 +60,4 @@ Accuracy of prediction on test set :  0.5224
 I used A100 GPU to try this experiment. It took around 4 minutes at total to train with 5 epochs. But in order to run this code, it is not required to have powerful GPU and can run with T4 or lower as well.
 
 ## Next step
-I will explore the GNN, Roberta and LoRA models in the next step. 
+I will explore the Llama and LoRA models in the next step. 
