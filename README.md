@@ -1,5 +1,28 @@
 # CS5588_Assignment2
-##  Reproducing Deep Learning or LLM Model
+##  2.2 Building and Deploying the Prototype of the Triangle Model
+
+**Objective:**
+As part of Assignment 2, each student must build and deploy a triangle model prototype consisting of a frontend, a NoSQL database, and a backend Flask Python application. The Flask application must integrate the deep learning or LLM model you reproduced in Assignment 2-1 from your Jupyter Notebook. This task will establish a functional prototype that connects all three components and deploys the model. Up to two students from the same project team may collaborate on development, but each student must submit their own individual work.
+
+**Frontend Development:**
+
+I used the Gradio which is an open-source Python package that allows me to quickly build a demo for our model.
+
+**NoSQL Database:**
+
+I set up sqlite3 (standalone command-line shell program) that can be used to create a database, define tables, insert and change rows, run queries and manage an SQLite database file.
+
+**Flask Python Application:**
+
+Create a Flask Python application that runs and deploys the deep learning or LLM model reproduced in Assignment 2-1 from your Jupyter Notebook.
+The application should handle data exchange between the frontend and the NoSQL database.
+
+**Connecting the Components:**
+
+The frontend, database, and Flask Python application are fully connected and functional as a prototype.
+Assignment 2-1 model was integrated and deployed within this system.
+
+##  2.1. Reproducing Deep Learning or LLM Model
 
 **Objective:** The primary goal of our project is to predict stock prices using news articles and social media posts. To accomplish this, we need to employ Natural Language Processing (NLP) techniques to accurately assess sentiment scores from these sources. As a starting point, I implemented an LSTM model as a baseline to serve as both a foundation and a benchmark for evaluating the performance of our proposed model
 
